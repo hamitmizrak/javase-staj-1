@@ -11,31 +11,31 @@ import com.ecodation.utils.IDaoImplements;
 public class AdminDao implements IDaoImplements<AdminDto> {
 	ResultSet resultSet;
 	private AdminDto adminDto;
-	
+
 	@Override
 	public void create(AdminDto t) {
 		System.out.println("create yapılıyor");
-		
+
 	}
-	
+
 	@Override
 	public void update(AdminDto t) {
 		System.out.println("update yapılıyor");
-		
+
 	}
-	
+
 	@Override
 	public void delete(long id) {
 		System.out.println("delete yapılıyor");
-		
+
 	}
-	
+
 	@Override
 	public ArrayList<AdminDto> list() {
 		System.out.println("list yapılıyor");
 		return null;
 	}
-	
+
 	// c p r
 	@Override
 	public ArrayList<AdminDto> searchInformation() {
@@ -58,5 +58,5 @@ public class AdminDao implements IDaoImplements<AdminDto> {
 		}
 		return (ArrayList<AdminDto>) adminDto;
 	}
-	
+
 }
